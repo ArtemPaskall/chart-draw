@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ArtemPaskall/chart-draw.git/static/css/main.073c9b0a.css",
+    "main.js": "/ArtemPaskall/chart-draw.git/static/js/main.c4597c41.js",
+    "index.html": "/ArtemPaskall/chart-draw.git/index.html",
+    "main.073c9b0a.css.map": "/ArtemPaskall/chart-draw.git/static/css/main.073c9b0a.css.map",
+    "main.c4597c41.js.map": "/ArtemPaskall/chart-draw.git/static/js/main.c4597c41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.c4597c41.js"
+  ]
+}
