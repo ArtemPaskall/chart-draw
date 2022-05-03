@@ -2,7 +2,6 @@ import './style/App.scss';
 import Chart from 'chart.js/auto';
 import { useEffect, useState } from 'react';
 import classNames from 'classnames';
-import triangle_icon  from './images/triangle_icon.png';
 
 const config: Configuration = {
   type: 'bar',
@@ -157,7 +156,9 @@ const App = () => {
  
   return (
     <div className="App">
-      CHART-DRAW
+      <h1 className='App-titile'>
+        CHART-DRAW 
+      </h1>
       <div className='App-content'>   
         <div className='axis-wrap'>
           <label className='X-axis-lable'> 
@@ -209,7 +210,7 @@ const App = () => {
             {yEmptyError && <p className='emptyLabelsError'>Enter some values, please</p>}
             {matchNumberError && 
               <>
-                <p className='matchNumberError'>The numbers of labels doesn't mutch the numbers of values</p>
+                <p className='matchNumberError'>The numbers of labels doesn't match the numbers of values</p>
                 <p className='matchNumberError'>Either add something or remove something</p>
               </>
             }
@@ -228,7 +229,7 @@ const App = () => {
               <div 
                 className='triangle_icon-wrap'
               >
-                <img  src={triangle_icon} alt="my-img" className='triangle_icon' />
+                <img  src='/triangle_icon.png' alt="my-img" className='triangle_icon' />
               </div>
             </>
           }

@@ -1,16 +1,21 @@
 .App {
   text-align: center;
-  margin: 0 10px;
+  margin: 0 10px 50px;
+}
+
+.App-titile {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .App-content {
   display: flex;
   flex-direction: column;
   max-width: 600px;
-  height: 640px;
+  height: 680px;
   border: 2px solid rgb(142, 144, 146);
   margin: 0 auto;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .axis-wrap {
@@ -19,19 +24,21 @@
 }
 
 .X-axis-lable {
-  width: 400px;
+  display: flex;
+  flex-direction: column;
   text-align: left;
   margin: 10px;
 }
 
 .Y-axis-lable {
-  width: 400px;
+  display: flex;
+  flex-direction: column;
   text-align: left;
   margin: 10px;
 }
 
 .X-axis {
-  width: 400px;
+  max-width: 400px;
   height: 30px;
 
   &::placeholder {
@@ -40,11 +47,16 @@
 }
 
 .Y-axis {
-  width: 400px;
+  max-width: 400px;
   height: 30px;
 
   &::placeholder {
     letter-spacing: 1px;
+
+    @media (max: 440px) {
+      display: none;
+      
+    }
   }
 }
 
@@ -67,7 +79,7 @@
   border: 0;
   box-sizing: border-box;
   color: rgb(94, 175, 209);
-  font-family: Arial, Helvetica, sans-serif;
+  
   font-weight: bold;
   font-size: 16px;
 
