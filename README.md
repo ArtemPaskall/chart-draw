@@ -3,7 +3,16 @@
  ### [DEMO](https://artempaskall.github.io/chart-draw/)
 
  ##  Description
+Technologies that have been applied
+-HTML5, CSS3
 
+-SASS, BEM
+
+-Javascript ES6
+
+-TypeScript
+
+-React
 
 ## Local development
 Dependencies
